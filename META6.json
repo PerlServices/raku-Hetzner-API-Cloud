@@ -1,0 +1,20 @@
+{
+  "name": "Hetzner::API::Cloud",
+  "description": "Work with the Hetzner Cloud API",
+  "version": "0.1",
+  "perl": "6.*",
+  "auth": "perlservices",
+  "depends": [
+    "Cro::HTTP::Client"
+  ],
+  "build-depends": [],
+  "test-depends": [],
+  "provides": {
+    "Hetzner::API::Cloud": "lib/Hetzner/API/Cloud.pm6",
+    "Hetzner::API::Cloud::Request": "lib/Hetzner/API/Cloud/Request.pm6",
+    "Hetzner::API::Cloud::Servers": "lib/Hetzner/API/Cloud/Servers.pm6"
+  },
+  "resources": [],
+  "license": "Artistic-2.0",
+  "source-url": "https://github.com/perlservices/raku-Hetzner-API-Cloud.git"
+}
